@@ -1,0 +1,35 @@
+
+
+
+
+/* Modo Claro */
+body.light-mode {
+background-color: #fff;
+color: #333;
+}
+
+/* Modo Escuro */
+body.dark-mode {
+background-color: #333;
+color: #fff;
+}
+header {
+    margin: 0px;
+    padding: 0px;
+
+}
+span{
+    cursor: pointer;
+    display: block;
+    text-align: right;
+}
+.modo-container {
+    position: absolute;
+    top: 10px; /* Ajuste a posição vertical conforme necessário */
+    right: 10px; /* Ajuste a posição horizontal conforme necessário */
+}
+h1{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}

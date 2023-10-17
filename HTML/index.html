@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Corrigido o atributo "width" -->
+    <link rel="stylesheet" href="../ESTILO/estiloPC.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <title>Conversor</title>
+</head>
+<body>
+    <header>
+        <h1>Convertor</h1>
+        <div class="modo-container">
+            <span class="material-symbols-outlined" id="modoBotao"> dark_mode </span>
+        </div>
+    </header>
+    <main>
+        <!-- Conteúdo principal -->
+    </main>
+    <footer>
+        <!-- Rodapé -->
+    </footer>
+</body>
+<script>
+    const modoBotao = document.getElementById('modoBotao');
+    const body = document.body;
+    
+    modoBotao.addEventListener('click', () => {
+        if (body.classList.contains('light-mode')) {
+            body.classList.remove('light-mode');
+            body.classList.add('dark-mode');
+        } else {
+            body.classList.remove('dark-mode');
+            body.classList.add('light-mode');
+        }
+    });
+</script>
+</html>
