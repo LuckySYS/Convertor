@@ -53,6 +53,8 @@ p{
     padding: 10px;
     height: 20px;
     width: 555px;
+    border: 2px solid green;
+    border-radius: 5px
 }
 .divlink{
     padding: 20px;
@@ -67,4 +69,16 @@ p{
 }
 .btn-ver:hover{
     background-color: rgb(2, 202, 202);
+}
+.botao{
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: 44px;
+    border: 2px solid green;
+    border-radius: 5px
+}
+.botao:hover{
+    background-color: rgb(1, 160, 1);
+    cursor: pointer;
 }
