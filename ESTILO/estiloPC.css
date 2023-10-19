@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    font-family: Roboto,sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Modo Claro */
@@ -15,13 +15,15 @@ background-color: #333;
 color: #000000;
 }
 header {
-    background-color: rgb(0, 165, 165);
-    padding: 20px;
+    background-color: rgb(11, 87, 11);
+    padding: 18px;
+    color: white;
 }
 span{
     cursor: pointer;
     display: block;
     text-align: right;
+    margin-top: 15px;
 }
 .modo-container {
     position: absolute;
@@ -30,8 +32,10 @@ span{
 }
 a{
     color: black;
-    font-size: 35px;
+    font-size: 24px;
     text-decoration: none;
+    color: white;
+    font-style: bold;
 }
 main{
     text-align: center;
@@ -53,7 +57,7 @@ p{
     padding: 10px;
     height: 20px;
     width: 555px;
-    border: 2px solid green;
+    border: 2px solid rgb(65, 158, 65);
     border-radius: 5px
 }
 .divlink{
@@ -71,7 +75,7 @@ p{
     background-color: rgb(2, 202, 202);
 }
 .botao{
-    background-color: green;
+    background-color: rgb(65, 158, 65);
     color: white;
     width: 80px;
     height: 44px;
@@ -79,6 +83,6 @@ p{
     border-radius: 5px
 }
 .botao:hover{
-    background-color: rgb(1, 160, 1);
+    background-color: rgb(79, 192, 79);
     cursor: pointer;
 }
