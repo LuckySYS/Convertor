@@ -70,7 +70,7 @@ p{
     height: 20px;
     width: 555px;
     border: 2px solid rgb(65, 158, 65);
-    border-radius: 5px
+    border-radius: 5px;
 }
 .divlink{
     text-align: center;
@@ -115,4 +115,7 @@ a:hover{
     text-decoration: none;
     color: white;
     font-style: bold;
+}
+.input-image {
+    margin-right: 10px;
 }
