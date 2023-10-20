@@ -30,15 +30,13 @@ span{
     top: 10px; /* Ajuste a posição vertical conforme necessário */
     right: 10px; /* Ajuste a posição horizontal conforme necessário */
 }
-a{
-    color: black;
+.convertor{
     font-size: 24px;
     text-decoration: none;
     color: white;
     font-style: bold;
 }
 main{
-    text-align: center;
     padding: 20px;
     margin: auto;
     min-width: 300px;
@@ -50,8 +48,21 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+h2{
+    text-align: center;
+    padding: 15px;
+}
+h3{
+    padding: 15px;
+}
+li{
+    padding: 5px;
+}
 p{
     padding-top: 10px;
+}
+.titu{
+    text-align: center;
 }
 .link{
     padding: 10px;
@@ -61,6 +72,7 @@ p{
     border-radius: 5px
 }
 .divlink{
+    text-align: center;
     padding: 20px;
 }
 .btn-ver{
@@ -85,4 +97,21 @@ p{
 .botao:hover{
     background-color: rgb(79, 192, 79);
     cursor: pointer;
+}
+.nave{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(79, 192, 79);
+}
+.titulo{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-style: bold;
 }
